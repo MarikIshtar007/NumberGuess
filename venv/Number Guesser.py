@@ -36,3 +36,8 @@ while outer:
             if replay.lower() == 'yes' or replay.lower() == 'y':
                 outer = True
                 break
+            else:
+                outer = False
+                break
+print("Thank you for Pllaying!!")
+print("Exiting the Program......")
